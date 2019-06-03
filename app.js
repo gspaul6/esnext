@@ -104,7 +104,7 @@ class TripService {
                     }
                    
                 })
-                  reject("the name does not exist",tripName);
+                  reject("No trip with name");
 
             }, 2000)
     });
